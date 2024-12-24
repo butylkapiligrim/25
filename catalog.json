@@ -1,0 +1,36 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+        "name": "Самса",
+        "description": "Вкусная куриная, говяжья"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+        "name": "Самса куриная",
+        "description": "Вкусная куриная самса",
+        "image": "product/image/Самса куриная.JPG",
+        "category": 1,
+        "price": "49",
+        "created_at": "2024-12-09",
+        "updated_at": "2024-12-10"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Самса говяжья",
+        "description": "Вкусная говяжья самса",
+        "image": "product/image/Самса говяжья.jpg",
+        "category": 1,
+        "price": "48",
+        "created_at": "2024-12-09",
+        "updated_at": "2024-12-10"
+    }
+},
+]
