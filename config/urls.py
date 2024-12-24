@@ -6,6 +6,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("catalog.urls", namespace="catalog")),
+    path("wagnit_blog/", include("wagnit_blog.urls", namespace="wagnit_blog")),
 ]
 
 if settings.DEBUG:
